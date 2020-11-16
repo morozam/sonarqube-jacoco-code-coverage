@@ -2,7 +2,6 @@ plugins {
     id 'java'
     id 'jacoco'
     id 'org.sonarqube' version '3.0'
-    id 'com.palantir.docker-compose' version '0.25.0'
 }
 
 group 'com.tom'
@@ -20,7 +19,7 @@ dependencies {
 
 sonarqube {
     properties {
-        property 'sonar.host.url', 'http://104.155.16.81/ '
+        property 'sonar.host.url', 'http://104.155.16.81/'
     }
 }
 
